@@ -15,6 +15,7 @@ struct MoreProduct: View {
                 .foregroundColor(.black)
                 .frame(maxWidth: .infinity, alignment: .leading)
         }
+        .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         .background(Color("HomeBG").ignoresSafeArea())
     }
