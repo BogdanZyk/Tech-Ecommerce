@@ -13,7 +13,7 @@ struct StaggeredGrid<Content: View,T:Identifiable>: View where T: Hashable {
     var list: [T]
     var showIndicators: Bool
     var spacing: CGFloat
-    init(colums:Int, showIndicators:Bool = false, spacing: CGFloat = 10, list: [T], @ViewBuilder content: @escaping (T) -> Content){
+    init(colums:Int, showIndicators: Bool = false, spacing: CGFloat = 10, list: [T], @ViewBuilder content: @escaping (T) -> Content){
         self.content = content
         self.list = list
         self.showIndicators = showIndicators
@@ -42,6 +42,7 @@ struct StaggeredGrid<Content: View,T:Identifiable>: View where T: Hashable {
                         }
                     }
                     .padding(.top, getIndex(values: columnsData) == 1 ? 80 : 0)
+                    
                 }
             }
             .padding(.vertical)
