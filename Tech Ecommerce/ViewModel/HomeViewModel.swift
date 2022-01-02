@@ -14,12 +14,12 @@ class HomeViewModel: ObservableObject {
     @Published var products: [Product] = [
         
         Product(type: .Wearable,  title: "Apple Watch", subtitle: "Series 6: Grey", price: "$359", productImage: "AppleWatch6"),
-        Product(type: .Phones,  title: "Apple iPhone 13", subtitle: "A15 - Blue", price: "$699", productImage: "iPhone13"),
+        Product(type: .Phones,  title: "iPhone 13", subtitle: "A15 - Blue", price: "$699", productImage: "iPhone13"),
         Product(type: .Laptops,  title: "MacBooc Air", subtitle: "M1 - Space Grey", price: "$999", productImage: "MacBookAir"),
         Product(type: .Tablets,  title: "iPad Pro", subtitle: " A14 - Pink", price: "$699", productImage: "iPadPro"),
         Product(type: .Tablets, title: "iPad Air", subtitle: "iPad Air 2020 Rose Gold", price: "$599", productImage: "iPadAir"),
         Product(type: .Wearable,  title: "AirPods", subtitle: "AirPods - White", price: "$275", productImage: "AirPods"),
-        Product(type: .Phones,  title: "Apple iPhone 12", subtitle: "Apple iPhone 12 - Black", price: "$599", productImage: "iPhone12"),
+        Product(type: .Phones,  title: "iPhone 12", subtitle: "Apple iPhone 12 - Black", price: "$599", productImage: "iPhone12"),
 
         
     ]

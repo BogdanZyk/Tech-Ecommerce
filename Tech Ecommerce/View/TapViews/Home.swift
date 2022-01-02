@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct Home: View {
-    @Namespace var animation
+    var animation: Namespace.ID
     @StateObject var homeData: HomeViewModel = HomeViewModel()
+    @EnvironmentObject var sharedData: SharedDataModel
     var body: some View {
         ScrollView(.vertical, showsIndicators: false){
             
@@ -103,12 +104,25 @@ struct Home: View {
     func productCardView(product:Product) -> some View{
         VStack(spacing: 10){
             
-            Image(product.productImage)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: getRect().width / 2.5 , height: getRect().width / 2.5)
-                .offset(y: -80)
-                .padding(.bottom, -80)
+            ZStack{
+                if sharedData.showDetailProduct {
+                    
+                    Image(product.productImage)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .opacity(0)
+                }
+                else{
+                    
+                    Image(product.productImage)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .matchedGeometryEffect(id: "\(product.id)IMAGE", in: animation)
+                }
+            }
+            .frame(width: getRect().width / 2.5 , height: getRect().width / 2.5)
+            .offset(y: -80)
+            .padding(.bottom, -80)
             
             Text(product.title)
                 .font(.custom(customFont, size: 18))
@@ -130,6 +144,12 @@ struct Home: View {
             Color.white
                 .cornerRadius(25)
         )
+        .onTapGesture {
+            withAnimation(.easeInOut){
+                sharedData.datailProduct = product
+                sharedData.showDetailProduct = true
+            }
+        }
     }
     
     
@@ -185,7 +205,7 @@ struct Home: View {
 
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
-        Home()
+        MainPage()
     }
 }
 
