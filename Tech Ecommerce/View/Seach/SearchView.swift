@@ -12,6 +12,7 @@ struct SearchView: View {
     @EnvironmentObject var sharedData: SharedDataModel
     @EnvironmentObject var homeData: HomeViewModel
     @FocusState var startTextField: Bool
+    
     var body: some View {
         VStack(spacing: 0){
             HStack(spacing: 20){

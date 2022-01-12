@@ -11,7 +11,6 @@ class LoginPageModel: ObservableObject {
     @Published var email: String = ""
     @Published var password: String = ""
     @Published var showPassword: Bool = false
-    
     @Published var registeredUser: Bool = false
     @Published var re_Enter_Password: String = ""
     @Published var showReEnterPassword: Bool = false
