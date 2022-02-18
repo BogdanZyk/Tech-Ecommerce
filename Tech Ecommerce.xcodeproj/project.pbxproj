@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A16972C27BEE3EF00140CF0 /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16972B27BEE3EF00140CF0 /* testView.swift */; };
 		5A20BE36277C712300EE52DB /* Tech_EcommerceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A20BE35277C712300EE52DB /* Tech_EcommerceApp.swift */; };
 		5A20BE38277C712300EE52DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A20BE37277C712300EE52DB /* ContentView.swift */; };
 		5A20BE3A277C712400EE52DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A20BE39277C712400EE52DB /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A16972B27BEE3EF00140CF0 /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
 		5A20BE32277C712300EE52DB /* Tech Ecommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tech Ecommerce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A20BE35277C712300EE52DB /* Tech_EcommerceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tech_EcommerceApp.swift; sourceTree = "<group>"; };
 		5A20BE37277C712300EE52DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				5A9E72AC2780B1720088E4C1 /* ProductDetailView.swift */,
+				5A16972B27BEE3EF00140CF0 /* testView.swift */,
 			);
 			path = ProductDetail;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				5A20BE38277C712300EE52DB /* ContentView.swift in Sources */,
 				5A20BE4F277C74B700EE52DB /* OnBordingPage.swift in Sources */,
 				5A9E72A8278080BE0088E4C1 /* SearchView.swift in Sources */,
+				5A16972C27BEE3EF00140CF0 /* testView.swift in Sources */,
 				5A9E72AD2780B1720088E4C1 /* ProductDetailView.swift in Sources */,
 				5AC44FD1277DAD7A006F6ED8 /* MainPage.swift in Sources */,
 				5AC44FD5277DBCCE006F6ED8 /* Home.swift in Sources */,
