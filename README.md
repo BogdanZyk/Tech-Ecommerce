@@ -3,5 +3,4 @@ Shop for electronic devices.
 
 
 
-! [Alt Text] 
-(https://raw.github.com/BogdanZyk/Tech-Ecommerce/blob/main/screenShots/HomeView.png)
+ <img src="screenShots/HomeView.png" height="400" alt="Screenshot"/>
