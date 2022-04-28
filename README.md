@@ -3,5 +3,5 @@ Shop for electronic devices.
 
 
 
-![Screenshot] 
+![Alt Text] 
 (https://raw.github.com/BogdanZyk/Tech-Ecommerce/blob/main/screenShots/HomeView.png)
