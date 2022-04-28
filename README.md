@@ -3,4 +3,4 @@ Shop for electronic devices.
 
 
 HomeView Page
-![image] (https://github.com/BogdanZyk/Tech-Ecommerce/blob/main/screenShots/HomeView.png)
+![Screenshot] (https://raw.github.com/BogdanZyk/Tech-Ecommerce/blob/main/screenShots/HomeView.png)
