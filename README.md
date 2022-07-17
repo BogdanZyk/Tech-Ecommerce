@@ -1,8 +1,15 @@
-# Tech-Ecommerce
+# Tech-Ecommerce App
 
-Shop for electronic devices.
+E-Commerce App Shop for electronic devices.
 
-MVVM architecture
+## Includes ( All SwiftUI)
+- Combine Framework
+- MVVM architecture
+- Custom Modifiers
+- Custom Animations
+
+## Screenshots 📷
+
 <div align="center">
 <img src="screenShots/onBoardView.png" height="500" alt="Screenshot"/>
 <img src="screenShots/LoginView.png" height="500" alt="Screenshot"/>
